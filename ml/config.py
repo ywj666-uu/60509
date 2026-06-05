@@ -1,0 +1,17 @@
+SAMPLE_RATE = 16000
+N_MELS = 64
+N_FFT = 1024
+HOP_LENGTH = 512
+TARGET_LENGTH = 128  # time frames
+
+NUM_CLASSES = 26
+CHAR_MAP = 'abcdefghijklmnopqrstuvwxyz'
+
+BATCH_SIZE = 32
+LEARNING_RATE = 0.001
+NUM_EPOCHS = 50
+TRAIN_SPLIT = 0.8
+
+DATA_RAW_DIR = 'data/raw'
+DATA_PROCESSED_DIR = 'data/processed'
+MODEL_SAVE_DIR = 'saved_models'
